@@ -1,0 +1,30 @@
+{
+  "name": "iosample-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "@wdio/allure-reporter": "^6.10.6",
+    "@wdio/cli": "^6.10.11",
+    "@wdio/local-runner": "^6.10.13",
+    "@wdio/mocha-framework": "^6.10.11",
+    "@wdio/spec-reporter": "^6.10.6",
+    "@wdio/sync": "^6.10.11",
+    "chromedriver": "^87.0.4",
+    "wdio-chromedriver-service": "^6.0.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
